@@ -1,0 +1,30 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+.error_note {
+  color: red;
+  display: none;
+  font-size: 0.8em;
+}
+
+.required {
+  color: red;
+}
+
+.license_note {
+  color: blue;
+  font-size: 0.8em;
+}
+
+#notes {
+  resize: none;
+}
+
+#notes,
+#description,
+#photographer_name,
+#photographer_email,
+#license {
+  width: 600px;
+}
